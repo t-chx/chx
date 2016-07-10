@@ -40,6 +40,7 @@
 
 | A | B |
 | -  | - |
+| A1 | B1 |
 
 ~~~~~~~~~~~~~~~~~
 
@@ -68,10 +69,10 @@ cond(no)->op
 ```
 
 ```flow
-st=>start: 用户登陆
-op=>operation: 登陆操作
-cond=>condition: 登陆成功 Yes or No?
-e=>end: 进入后台
+st=>start: Log in 
+op=>operation: Log 
+cond=>condition: Succeed Yes or No?
+e=>end: end 
 
 st->op->cond
 cond(yes)->e
