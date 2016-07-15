@@ -1,7 +1,9 @@
 # Markdown Practice
 
-# Title 1
+This is a test page to show the results of different document services.
+
 ## Title 2
+
 ### Title 3
 
 ### Features
@@ -9,9 +11,26 @@
 - feature 2
 - feature 3
 
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+
 # Editor.md
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![](https://regmedia.co.uk/2013/11/13/visual_studio.jpg?x=1200&y=794)
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
@@ -38,11 +57,6 @@
 
 ## Tables
 
-| A | B |
-| -  | - |
-| A1 | B1 |
-
-~~~~~~~~~~~~~~~~~
 
 | Function name | Description                    |
 | ------------- | ------------------------------ |
@@ -55,26 +69,4 @@
 | 手机        |   $12   |   12   |
 | 管线        |    $1    |  234  |
 
-##Flowchart
 
-```flow
-st=>start: 用户登录
-op=>operation: 登录操作
-cond=>condition: 登陆成功 Yes or No?
-e=>end: 进入后台
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-```flow
-st=>start: Log in 
-op=>operation: Log 
-cond=>condition: Succeed Yes or No?
-e=>end: end 
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
