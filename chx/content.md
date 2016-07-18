@@ -1,27 +1,68 @@
 # Markdown Practice
 
-# Title 1
-## Title 2
-### Title 3
+This is a test page to show the results of different document services.
 
-### Features
+![](https://regmedia.co.uk/2013/11/13/visual_studio.jpg?x=1200&y=794)
+
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
+## Headers
+# Title1
+## Title2
+### Title3
+#### Title4
+##### Title5
+###### Title6
+
+## Lists
 - feature 1
 - feature 2
 - feature 3
 
-# Editor.md
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+
+## Emphasis
 *斜体* _斜体字_
 **粗体** 
 ***粗斜体***
+~~Scratch this.~~
 
 上标：X<sub>2</sub>  下标：O<sup>2</sup>
 
-[Links](https://pandao.github.io/editor.md/)
+
+## Links
+[Inline Link](https://docs.microsoft.com/en-us/)
+[Inline Link with Title](https://docs.microsoft.com/en-us "Docs")
+URLs and URLs in angle brackets will automatically get turned into links. 
+https://docs.microsoft.com/en-us/ or <https://docs.microsoft.com/en-us/>.
+
+## Code 
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+## html
 
 ```html
 <!DOCTYPE html>
@@ -38,12 +79,6 @@
 
 ## Tables
 
-| A | B |
-| -  | - |
-| A1 | B1 |
-
-~~~~~~~~~~~~~~~~~
-
 | Function name | Description                    |
 | ------------- | ------------------------------ |
 | `help()`      | Display the help window.       |
@@ -55,26 +90,33 @@
 | 手机        |   $12   |   12   |
 | 管线        |    $1    |  234  |
 
-##Flowchart
+## Blockquotes
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
 
-```flow
-st=>start: 用户登录
-op=>operation: 登录操作
-cond=>condition: 登陆成功 Yes or No?
-e=>end: 进入后台
+Quote break.
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
 
-```flow
-st=>start: Log in 
-op=>operation: Log 
-cond=>condition: Succeed Yes or No?
-e=>end: end 
+## HOrizontal Rule
+Three or more...
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
+## Videos
+<a href="https://www.youtube.com/watch?v=NepG36wz9H8
+" target="_blank"><img src="http://images.anandtech.com/doci/7143/MSFT_logo_png_678x452.png" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+[![IMAGE ALT TEXT HERE](http://images.anandtech.com/doci/7143/MSFT_logo_png_678x452.png)](https://www.youtube.com/watch?v=NepG36wz9H8)
+
