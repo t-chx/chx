@@ -37,21 +37,18 @@ This is a test page to show the results of different document services.
 + Or pluses
 
 ## Emphasis
-*斜体* _斜体字_
-
-**粗体** 
-
-***粗斜体***
-
+*斜体* _斜体字_  
+**粗体**   
+***粗斜体***  
 ~~Scratch this.~~
 
 上标：X<sub>2</sub>  下标：O<sup>2</sup>
 
 
 ## Links
-[Inline Link](https://docs.microsoft.com/en-us/)
+[Inline Link](https://docs.microsoft.com/en-us/)  
 
-[Inline Link with Title](https://docs.microsoft.com/en-us "Docs")
+[Inline Link with Title](https://docs.microsoft.com/en-us "Docs")  
 
 URLs and URLs in angle brackets will automatically get turned into links. 
 https://docs.microsoft.com/en-us/ or <https://docs.microsoft.com/en-us/>.
