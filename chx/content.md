@@ -2,11 +2,19 @@
 
 This is a test page to show the results of different document services.
 
-## Title 2
+![](https://regmedia.co.uk/2013/11/13/visual_studio.jpg?x=1200&y=794)
 
-### Title 3
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-### Features
+## Headers
+# Title1
+## Title2
+### Title3
+#### Title4
+##### Title5
+###### Title6
+
+## Lists
 - feature 1
 - feature 2
 - feature 3
@@ -28,19 +36,33 @@ This is a test page to show the results of different document services.
 - Or minuses
 + Or pluses
 
-# Editor.md
-
-![](https://regmedia.co.uk/2013/11/13/visual_studio.jpg?x=1200&y=794)
-
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
-
+## Emphasis
 *斜体* _斜体字_
 **粗体** 
 ***粗斜体***
+~~Scratch this.~~
 
 上标：X<sub>2</sub>  下标：O<sup>2</sup>
 
-[Links](https://pandao.github.io/editor.md/)
+
+## Links
+[Inline Link](https://docs.microsoft.com/en-us/)
+[Inline Link with Title](https://docs.microsoft.com/en-us "Docs")
+URLs and URLs in angle brackets will automatically get turned into links. 
+https://docs.microsoft.com/en-us/ or <https://docs.microsoft.com/en-us/>.
+
+## Code 
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+## html
 
 ```html
 <!DOCTYPE html>
@@ -57,7 +79,6 @@ This is a test page to show the results of different document services.
 
 ## Tables
 
-
 | Function name | Description                    |
 | ------------- | ------------------------------ |
 | `help()`      | Display the help window.       |
@@ -69,4 +90,33 @@ This is a test page to show the results of different document services.
 | 手机        |   $12   |   12   |
 | 管线        |    $1    |  234  |
 
+## Blockquotes
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+
+## HOrizontal Rule
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
+## Videos
+<a href="https://www.youtube.com/watch?v=NepG36wz9H8
+" target="_blank"><img src="http://images.anandtech.com/doci/7143/MSFT_logo_png_678x452.png" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+[![IMAGE ALT TEXT HERE](http://images.anandtech.com/doci/7143/MSFT_logo_png_678x452.png)](https://www.youtube.com/watch?v=NepG36wz9H8)
 
