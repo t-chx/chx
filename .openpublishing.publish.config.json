@@ -5,8 +5,8 @@
   "docsets_to_publish": [
     {
       "docset_name": "chx",
-      "build_source_folder": "'a/b'",
-      "build_output_subfolder": "'a/b'",
+      "build_source_folder": "'chx'",
+      "build_output_subfolder": "'chx'",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": false,
@@ -14,9 +14,7 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
+      }
     }
   ],
   "notification_subscribers": [],
